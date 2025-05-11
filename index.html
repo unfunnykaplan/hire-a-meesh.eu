@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mykhailo Khokhlovych — Interpreter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #fff;
+      color: #111;
+    }
+    .center {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .center img {
+      width: 120px;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .section {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .content {
+      display: none;
+      margin-top: 1rem;
+      text-align: left;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .contact a, .footer a {
+      color: #000;
+      text-decoration: none;
+    }
+    .footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .footer span, .footer a {
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <img src="meesh-short.png" alt="Portrait of Mykhailo Khokhlovych">
+    <h1>Mykhailo Khokhlovych</h1>
+    <p><strong>Simultaneous Interpreter</strong></p>
+    <p><strong>Ukrainian ↔ English</strong></p>
+    <p>Based in Berlin — Available Globally and Online</p>
+
+    <ul class="contact">
+      <li>Email: <a href="mailto:m.khokhlovych@gmail.com">m.khokhlovych@gmail.com</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2 onclick="toggleVisibility('events')">Interpretation Experience (2015–Now)</h2>
+    <div class="content" id="events">
+      <ul>
+        <li><strong>Medicine</strong>: Global Health Initiative for Ukraine, Prague 2025; Second Health Forum; Aesthetics and Anti-Aging Medicine Congress; Synevo Days; Project ECHO</li>
+        <li><strong>Politics</strong>: Forum on Eastern Ukraine; Center for Humanitarian Dialogue</li>
+        <li><strong>Technology & UI/UX</strong>: Big Data in Politics; OLX UX; Krupa 2019</li>
+        <li><strong>Art</strong>: Kyiv Biennale</li>
+        <li><strong>Cinema</strong>: Odesa Film Festival; Docudays</li>
+        <li><strong>Development</strong>: Lisboa+21</li>
+        <li><strong>Education</strong>: Edudate; Regional Voices</li>
+        <li><strong>Energy</strong>: GIZ; Sustainable Development Forum; Coal Regions Forum</li>
+        <li><strong>Environment</strong>: Zaporizhzhia Eco Forum</li>
+        <li><strong>Fashion</strong>: Vogue UA Conference</li>
+        <li><strong>Gaming</strong>: Games Gathering</li>
+        <li><strong>Human Rights</strong>: International Centre for Non-Violent Conflict</li>
+        <li><strong>Law</strong>: NORLAU Probation Project</li>
+        <li><strong>Literature</strong>: Odesa Literature Festival</li>
+        <li><strong>Marketing</strong>: Burning Brain Conference</li>
+        <li><strong>Media</strong>: Creative Ukraine Forum; Kyiv Media Week</li>
+        <li><strong>Society</strong>: Zagoriy Foundation Ted Talks</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>WhatsApp: +380 93 277 1749</span>
+    <span> | Telegram: @simeeshtaneous</span>
+    <span> | <a href="https://facebook.com/traveling.terp" target="_blank">Facebook</a></span>
+    <span> | <a href="https://www.linkedin.com/in/mikhail-khokhlovych-64a325124/" target="_blank">LinkedIn</a></span>
+  </div>
+
+  <script>
+    function toggleVisibility(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'none' || el.style.display === '' ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
